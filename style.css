@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
+
+.scrollbar{
+    background-color: red;
+    position: fixed;
+    /* width: 100%; */
+    height: 40px;
+    top: 0;
+    left: 0;
+}
